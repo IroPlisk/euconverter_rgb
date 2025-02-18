@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.state.BlockState;
 public class MVConverterBlockEntity extends ConverterBlockEntity
 {
     public MVConverterBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(pPos, pBlockState, 2, 128, 160000);
+        super(pPos, pBlockState, 2, 128, 256);
     }
 
     @Override
